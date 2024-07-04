@@ -1,13 +1,33 @@
 body {
     display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: gold;
+    color: darkred;
+    border-radius: 10px;
+    border-color: darkred;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 700px;
+    height: 700px;
+    display: flex;
     flex-flow: column;
     align-items: center;
+    background-color: red;
+    border: 10px solid darkred;
+    border-radius: 5%;
 }
 
 h1 {
     background-color: red;
     color: gold;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
 }
 
 .header {
@@ -20,6 +40,8 @@ h1 {
     background-color: aquamarine;
     display: flex;
     flex-flow: column;
+    border: 10px solid darkred;
+    border-radius: 5%;
 }
 
 .pixelRow {

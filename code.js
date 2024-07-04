@@ -1,6 +1,6 @@
 const maincontent = document.createElement("div");
 maincontent.id = "maincontent";
-const body = document.querySelector("body");
+const body = document.querySelector(".container");
 body.appendChild(maincontent);
 const reset = document.querySelector("#reset");
 
