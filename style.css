@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+h1 {
+    background-color: red;
+    color: gold;
+    font-family: cursive;
+}
+
+.header {
+    
+}
+
+#maincontent {
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    display: flex;
+    flex-flow: column;
+}
+
+.pixelRow {
+    display: flex;
+    flex: auto;
+}
+
+.pixel {
+    background-color: lightgray;
+    flex: auto;
+}
+
